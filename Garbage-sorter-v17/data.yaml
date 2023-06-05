@@ -1,0 +1,18 @@
+names:
+- Botella Plastica
+- Carton
+- Cascara de banano
+- Cascara de naranja
+- Lata
+- Papel
+- Paquete
+nc: 7
+roboflow:
+  license: CC BY 4.0
+  project: garbage-sorter
+  url: https://universe.roboflow.com/intgarsor/garbage-sorter/dataset/17
+  version: 17
+  workspace: intgarsor
+test: ../test/images
+train: Garbage-Sorter-17/train/images
+val: Garbage-Sorter-17/valid/images

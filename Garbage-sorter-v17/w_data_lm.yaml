@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 7
+names: ['Botella Plastica', 'Carton', 'Cascara de banano', 'Cascara de naranja', 'Lata', 'Papel', 'Paquete']
+
+roboflow:
+  workspace: intgarsor
+  project: garbage-sorter
+  version: 17
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/intgarsor/garbage-sorter/dataset/17
